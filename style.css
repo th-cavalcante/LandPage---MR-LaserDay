@@ -295,7 +295,7 @@ footer, span{
 }
 
 /*Responsividade*/
-@media (max-width: 425px){
+@media (max-width: 450px){
 
     /*Chamada 1 secao*/
     #event-description{
@@ -313,9 +313,12 @@ footer, span{
     }
   
     #txt-chamada{
-        max-width: 400px;
+        max-width: 90%;
         font-size: 20px;
-        
+       
+    }
+    #disclaimer p{
+       margin-left: 20px;
     }
 
     button{
