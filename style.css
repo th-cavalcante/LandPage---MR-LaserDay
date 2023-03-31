@@ -59,7 +59,7 @@ button{
     border: none;
     cursor: pointer;
     padding: 5px;
-    margin-left: 50px;
+    
 }
 button:hover{
     background: #d22eb9;
@@ -90,10 +90,10 @@ button:hover{
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    max-width: 300px;
+    align-items: center;
     color: var(--text-tertiary);
     margin: 35px;
+   
 }
 .benefit .benefit-img{
     width: 150px;
@@ -309,7 +309,6 @@ footer, span{
     }
     #disclaimer .about-event{
         font-size: 22px;
-        margin-top: 40px;
     }
   
     #txt-chamada{
@@ -322,10 +321,9 @@ footer, span{
     }
 
     button{
-        width: 290px;
+        width: 370px;
         border-radius: 3px;
-        font-size: 20px;
-        margin-left: 30px;
+        font-size: 23px;
     }
 
     /*vantagens*/
@@ -334,8 +332,16 @@ footer, span{
     }
     .benefits{
         flex-direction: column;
+        max-width: 90%;
+    }
+    .benefit{
+        margin: 8px;
+    }
+    .benefit p{
+        width: 350px;
 
     }
+
     /*fim vantagens*/
 
     /*parceria*/
