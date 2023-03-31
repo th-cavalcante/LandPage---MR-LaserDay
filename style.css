@@ -492,6 +492,13 @@ footer, span{
 
   }
   /*Call to action cta*/
+  footer{
+    height: auto;
+}
+footer #dev{
+    color: rgb(6, 6, 159);
+    font-size: 10px;
+}
 
 
 
