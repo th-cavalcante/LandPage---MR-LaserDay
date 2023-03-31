@@ -1,0 +1,486 @@
+:root{
+    --primary: #eb1ccc;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary:#5d5d5d; 
+}
+*{
+    font-family: "montserrat";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+#event-description{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url("img/laser1.png");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex; 
+    justify-content:space-around; 
+    align-items: center;
+    color: var(--text-color);
+}
+#disclaimer{
+   
+}
+#disclaimer,
+#disclaimer{
+    color: var(--text-color);
+}
+
+
+#disclaimer .about-event{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    max-width: 600px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: var(--primary);
+}
+
+#disclaimer p{
+    font: 1.5em;
+    margin-bottom: .3em;
+    font-weight: 500;
+}
+
+
+button{
+    width: 300px;
+    height: 60px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+    background: var(--primary);
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 50px;
+}
+button:hover{
+    background: #d22eb9;
+}
+
+
+#txt-chamada{
+    max-width: 400px;
+}
+
+
+/*Benefits Section*/
+#key-benefits {
+    height: 600px;
+}
+#key-benefits h2{
+    color: #5d5d5d;
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+.benefits{
+    display: flex;
+    justify-content:space-between;
+    padding: 4em; 
+}
+.benefit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 300px;
+    color: var(--text-tertiary);
+    margin: 35px;
+}
+.benefit .benefit-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+#benefit-1{
+    background-image: url("img/foto1.jpg");
+}
+#benefit-2{
+    background-image: url("img/mulhersorrindo.jpg");
+}
+#benefit-3{
+    background-image: url("img/visibilidade.jpg");
+}
+#benefit-4{
+    background-image: url("img/lista.jpg");
+}
+.benefite, span{
+    font-weight: bold;
+}
+/*fin vantagens*/
+
+/*inicio seção - Como funciona a parceria*/
+ #partnership{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+#title-partership{
+    max-width: 40%;
+    font-size: 37px;
+    color: var(--primary);
+    font-weight: bolder;
+}
+#txt-partnership{
+    max-width: 57%;
+    text-align: center;
+    font-family: 'monntserrat';
+    font-weight: 500;
+    color: var(--text-tertiary);
+    font-size: 20px;
+}
+/*fim -Como funciona a parceria*/
+
+/*Inicio - Perguntas frequente*/
+#questions{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'montserrat';
+    height: 650px;
+}
+
+#title-questions{
+    font-size: 38px;
+    max-width: 30%;
+    color: var(--primary);
+}
+#box-questions{
+    max-width: 60%;
+}
+.txt-questions{
+    margin-top: 20px;
+}
+.txt-questions h3{
+    color: var(--primary);
+    font-size: 15px;
+}
+.txt-questions p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*Slide de fotos*/
+#galery-photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px; 
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(img/foto2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#title-slide{
+    color: var(--secondary);
+}
+.photos li{
+    font-size: 20px;
+    color: var(--text-color);
+}
+.myslideshow-container, #img-slide{
+    margin-left: 100px;
+}
+
+#img-slide{
+   width: 600px;
+   height: 500px;
+   border-radius: 5px;
+   
+}
+
+/*Secao sobre mim*/ 
+#fotoMel{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+#about-me{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 500px;
+}
+#section-about-me h1{
+    text-align: center;
+    color: var(--primary);
+    font-size: 35px;
+    color: var(--secondary);
+    
+}
+#txt-about p{
+    max-width: 630px;
+    font-family: 'montserrat';
+    color: #5d5d5d;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/*Call to action cta*/
+#cta{
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url("img/sala3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+
+  }
+
+  #cta h3{
+    margin-bottom: 1.2em;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  #cta .btn{
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+  #cta .btn:hover{
+    opacity: 1;
+  }
+  
+  #mel-png img{
+    height: 270px;
+    width: 160px;
+  }
+  #mel-png{
+    margin-left: 70%;
+    margin-top: -270px;
+
+  }
+  
+footer{
+    align-items: center;
+    color: var(--text-secondary);
+    height: 80px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    box-shadow: 1px 1px 15px grey;
+}
+footer, span{
+    color: #414141;
+}
+
+.whats-fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+/*Responsividade*/
+@media (max-width: 450px){
+
+    /*Chamada 1 secao*/
+    #event-description{
+        flex-direction: column;
+        height: auto;
+        gap:15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    #disclaimer .about-event{
+        font-size: 22px;
+        margin-top: 40px;
+    }
+  
+    #txt-chamada{
+        max-width: 400px;
+        font-size: 20px;
+        
+    }
+
+    button{
+        width: 290px;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    /*vantagens*/
+    #key-benefits{
+        height: auto;
+    }
+    .benefits{
+        flex-direction: column;
+
+    }
+    /*fim vantagens*/
+
+    /*parceria*/
+    #partnership{
+        flex-direction: column;
+        height: auto;
+    }
+    #title-partership{
+        max-width: 90%;
+        font-size: 17px;
+        color: var(--primary);
+        font-weight: bolder;
+        
+    }
+    #txt-partnership{
+        text-align: center;
+        font-family: 'monntserrat';
+        font-weight: 500;
+        color: var(--text-tertiary);
+        font-size: 20px;
+    }
+    /*fim -Como funciona a parceria*/
+
+    /*Inicio - Perguntas frequente*/
+#questions{
+    flex-direction: column;
+    font-family: 'montserrat';
+    height: auto;
+}
+
+#box-questions{
+    max-width: 80%;
+}
+#title-questions{
+    font-size: 20px;
+    max-width: 90%;
+
+}
+.txt-questions{
+    margin-top: 20px;
+}
+.txt-questions h3{
+    color: var(--primary);
+    font-size: 15px;
+}
+.txt-questions p{
+    font-size: 15px;
+    font-weight: 400;
+}
+/*fim - Perguntas frequente*/
+/*Slide de fotos*/
+#galery-photo{
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+}
+#title-slide{
+    color: var(--secondary);
+    font-size: 22px;
+}
+.photos li{
+    font-size: 16px;
+}
+
+#img-slide{
+   width: 550px;
+   height: 400px;
+}
+
+/*fim slide photos*/
+
+/*Secao sobre mim*/ 
+#fotoMel{
+    height: 220px;
+    width: 220px;
+}
+#about-me{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+#section-about-me h1{
+    text-align: center;
+    color: var(--primary);
+    font-size: 35px;
+    color: var(--secondary);
+    
+}
+#txt-about p{
+    max-width: 360px;
+    font-family: 'montserrat';
+    color: #5d5d5d;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* fim Secao sobre mim*/
+
+/*Call to action cta*/
+#cta{
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url("img/sala3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+
+  }
+
+  #cta h3{
+    margin-bottom: 2em;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #cta .btn{
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+  #cta .btn:hover{
+    opacity: 1;
+  }
+  
+  #mel-png img{
+    height: 220px;
+    width: 150px;
+  }
+  #mel-png{
+    margin-left: 70%;
+    margin-top: -270px;
+  }
+  /*Call to action cta*/
+
+
+
+.whats-fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    cursor: pointer;
+}
+ 
+    
+
+}
