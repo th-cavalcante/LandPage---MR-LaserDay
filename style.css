@@ -409,12 +409,12 @@ footer, span{
     font-size: 13px;
 }
 .slideshow-container{
-   
+   width: auto;
 }
 
 #img-slide{
-   width: 400px;
-   height: 400px;
+   width: 380px;
+   height: 380px;
 }
 
 /*fim slide photos*/
