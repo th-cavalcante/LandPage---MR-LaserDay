@@ -446,6 +446,7 @@ footer, span{
     color: #5d5d5d;
     font-weight: 500;
     font-size: 18px;
+    max-width: 360px;
 }
 /* fim Secao sobre mim*/
 
