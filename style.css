@@ -191,9 +191,7 @@ button:hover{
     font-size: 20px;
     color: var(--text-color);
 }
-.myslideshow-container, #img-slide{
-    margin-left: 100px;
-}
+
 
 #img-slide{
    width: 600px;
@@ -402,20 +400,21 @@ footer, span{
 
 .mySlides img{
     margin-top: 10px;
-    margin-right: 100px;
-  
   }
 #title-slide{
     color: var(--secondary);
     font-size: 22px;
 }
 .photos li{
-    font-size: 16px;
+    font-size: 13px;
+}
+.slideshow-container{
+   
 }
 
 #img-slide{
-   width: 300px;
-   height: 300px;
+   width: 400px;
+   height: 400px;
 }
 
 /*fim slide photos*/
@@ -424,6 +423,7 @@ footer, span{
 #fotoMel{
     height: 220px;
     width: 220px;
+    margin-top: 20px;
 }
 #about-me{
     flex-direction: column;
@@ -433,8 +433,9 @@ footer, span{
 #section-about-me h1{
     text-align: center;
     color: var(--primary);
-    font-size: 35px;
+    font-size: 25px;
     color: var(--secondary);
+    margin-top: 15px;
     
 }
 #txt-about p{
