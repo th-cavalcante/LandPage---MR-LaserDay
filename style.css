@@ -295,7 +295,7 @@ footer, span{
 }
 
 /*Responsividade*/
-@media (max-width: 450px){
+@media (max-width: 425px){
 
     /*Chamada 1 secao*/
     #event-description{
