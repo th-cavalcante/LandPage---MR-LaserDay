@@ -300,7 +300,7 @@ footer, span{
     /*Chamada 1 secao*/
     #event-description{
         flex-direction: column;
-        height: 450px;
+        height: 500px;
         gap:15px;
         display: flex;
         justify-content: center;
