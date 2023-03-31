@@ -294,7 +294,7 @@ footer, span{
     cursor: pointer;
 }
 
-/*Responsividade*/
+/*Responsividade ---------------------------------------------------------------------------------------------*/
 @media (max-width: 450px){
 
     /*Chamada 1 secao*/
@@ -351,9 +351,10 @@ footer, span{
     }
     #title-partership{
         max-width: 90%;
-        font-size: 17px;
+        font-size: 15px;
         color: var(--primary);
         font-weight: bolder;
+        margin: 15px;
         
     }
     #txt-partnership{
@@ -398,6 +399,12 @@ footer, span{
     align-items: center;
     height: auto; 
 }
+
+.mySlides img{
+    margin-top: 10px;
+    margin-right: 100px;
+  
+  }
 #title-slide{
     color: var(--secondary);
     font-size: 22px;
@@ -407,8 +414,8 @@ footer, span{
 }
 
 #img-slide{
-   width: 550px;
-   height: 400px;
+   width: 300px;
+   height: 300px;
 }
 
 /*fim slide photos*/
@@ -485,7 +492,7 @@ footer, span{
 .whats-fixed{
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 5px;
     z-index: 9999;
     cursor: pointer;
 }
