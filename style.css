@@ -277,8 +277,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-    box-shadow: 1px 1px 15px grey;
+    background: #fff;
 }
 footer, span{
     color: #414141;
@@ -479,12 +478,15 @@ footer, span{
   }
   
   #mel-png img{
-    height: 220px;
-    width: 150px;
+    display: none;
   }
   #mel-png{
     margin-left: 70%;
     margin-top: -270px;
+  }
+  #mel-png{
+    display: none;
+
   }
   /*Call to action cta*/
 
