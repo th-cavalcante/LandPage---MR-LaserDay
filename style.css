@@ -358,6 +358,8 @@ footer, span{
         font-weight: 500;
         color: var(--text-tertiary);
         font-size: 20px;
+        max-width: 360px;
+        
     }
     /*fim -Como funciona a parceria*/
 
@@ -439,7 +441,7 @@ footer, span{
     
 }
 #txt-about p{
-    max-width: 360px;
+  
     font-family: 'montserrat';
     color: #5d5d5d;
     font-weight: 500;
