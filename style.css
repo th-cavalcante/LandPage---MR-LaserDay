@@ -297,7 +297,7 @@ button:hover{
     margin: 0 auto;
     font-weight: 600;
     font-size: 1.2em;
-    opacity: 0.8;
+    opacity: 1;
     text-transform: uppercase;
   }
   #cta .btn:hover{
@@ -345,6 +345,7 @@ footer, span{
     header{
         background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
     }
+   
     nav a{
         display: none;
     }
@@ -386,6 +387,7 @@ footer, span{
         width: 370px;
         border-radius: 3px;
         font-size: 23px;
+        color: rgb(223, 223, 41);
     }
 
     /*vantagens*/
@@ -456,6 +458,7 @@ footer, span{
 #title-questions{
     font-size: 20px;
     max-width: 90%;
+    margin-top: 15px;
 
 }
 .txt-questions{
