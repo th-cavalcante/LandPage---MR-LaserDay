@@ -15,7 +15,7 @@
 /*inicio estilização header*/
 header{
     height: 70px;
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
     position: fixed;
     top: 0;
     left: 0;
@@ -24,9 +24,11 @@ header{
     justify-content:space-between;
     align-items: center;
 }
+
 #logo img{
     height: 100px;
     width: 100px;
+    
 }
 #logo{
     margin-left: 40px;
@@ -48,6 +50,7 @@ nav a:hover{
     height: 30px;
     width: 30px;
     margin: 7px;
+    opacity: 0.8    ;
 }
 #redes{
     margin-right: 50px;
@@ -71,7 +74,6 @@ nav a:hover{
     align-items: center;
     color: var(--text-color);
 }
-#disclaimer,
 #disclaimer{
     color: var(--text-color);
 }
@@ -172,7 +174,7 @@ button:hover{
 }
 #title-partership{
     max-width: 40%;
-    font-size: 37px;
+    font-size: 40px;
     color: var(--primary);
     font-weight: bolder;
 }
@@ -192,15 +194,16 @@ button:hover{
     align-items: center;
     font-family: 'montserrat';
     height: 650px;
+    max-width: auto;
 }
 
 #title-questions{
-    font-size: 38px;
-    max-width: 30%;
+    font-size: 45px;
+    max-width: 40%;
     color: var(--primary);
 }
 #box-questions{
-    max-width: 60%;
+    max-width: 50%;
 }
 .txt-questions{
     margin-top: 20px;
@@ -379,6 +382,9 @@ footer, span{
         max-width: 90%;
         font-size: 20px;
        
+    }
+    #disclaimer{
+        margin-top: 60px;
     }
     #disclaimer p{
        margin-left: 20px;
