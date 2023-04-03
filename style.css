@@ -338,6 +338,10 @@ footer, span{
 
 /*Responsividade ---------------------------------------------------------------------------------------------*/
 @media (max-width: 450px){
+    body{
+        background: #000;
+        color: #fff;
+    }
     header{
         background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
     }
@@ -360,8 +364,7 @@ footer, span{
         gap:15px;
         display: flex;
         justify-content: center;
-        align-items: center;
-       
+        align-items: center;   
     }
     #disclaimer .about-event{
         font-size: 22px;
@@ -387,13 +390,17 @@ footer, span{
 
     /*vantagens*/
     #key-benefits{
-        height: auto;
+        height: auto;  
+    }
+    #key-benefits h2{
+        color: #fff;  
     }
     .benefits{
         flex-direction: column;
         justify-content: center;
         margin-left: 20px;
         max-width: 90%;
+       
     }
     .benefit{
         margin: 8px;
@@ -402,6 +409,10 @@ footer, span{
         width: 350px;
         font-size: 18px;
         font-weight: 400;
+        color: #fff;
+    }
+    .benefit span{
+        color: var(--primary);
     }
 
     /*fim vantagens*/
@@ -425,6 +436,7 @@ footer, span{
         color: var(--text-tertiary);
         font-size: 20px;
         max-width: 360px;
+        color: #fff;
         
     }
     /*fim -Como funciona a parceria*/
@@ -435,7 +447,9 @@ footer, span{
     font-family: 'montserrat';
     height: auto;
 }
-
+#txt-questions, span{
+    color: #fff;
+}
 #box-questions{
     max-width: 80%;
 }
@@ -462,9 +476,6 @@ footer, span{
     align-items: center;
     height: auto; 
 }
-#title-slide{
-    margin-top: 10px;
-}
 
 .mySlides img{
     margin-top: 10px;
@@ -472,6 +483,8 @@ footer, span{
 #title-slide{
     color: var(--secondary);
     font-size: 22px;
+    margin-top: 10px;
+    color: #fff;
 }
 .photos li{
     font-size: 13px;
@@ -502,17 +515,17 @@ footer, span{
     text-align: center;
     color: var(--primary);
     font-size: 25px;
-    color: var(--secondary);
+    color: var(--text-color);
     margin-top: 15px;
     
 }
 #txt-about p{
-  
     font-family: 'montserrat';
-    color: #5d5d5d;
+    color: var(--text-color);
     font-weight: 500;
     font-size: 18px;
     max-width: 360px;
+    margin-top: 20px;
 }
 /* fim Secao sobre mim*/
 
@@ -560,12 +573,12 @@ footer, span{
   /*Call to action cta*/
   footer{
     height: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+    background-color: #000;
+    color: var(--text-color);
+   
 }
 footer #dev{
-    color: rgb(6, 6, 159);
     font-size: 10px;
-
 }
 
 .whats-fixed{
