@@ -345,24 +345,13 @@ footer, span{
         display: none;
     }
     #logo{
-        margin-left: 20px;
+        margin-left: 160px;
     }
     #redes{
         display: none;
     }
     
-    #toogle{
-       display: block;
-       width: auto;
-       background: none;
-       font-size: 60px;
-       color: #fff;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-right: 10px;
-    }
-
+   
 
     /*Chamada 1 secao*/
     #event-description{
