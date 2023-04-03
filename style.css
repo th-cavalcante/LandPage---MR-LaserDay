@@ -124,13 +124,13 @@ button:hover{
 #key-benefits h2{
     color: #5d5d5d;
     text-align: center;
-    padding: 2em;
+    padding: 1em;
     font-weight: 500;
 }
 .benefits{
     display: flex;
     justify-content:space-between;
-    padding: 4em; 
+    padding: 1em; 
 }
 .benefit{
     display: flex;
@@ -392,6 +392,7 @@ footer, span{
     }
     #key-benefits h2{
         color: #fff;  
+       
     }
     .benefits{
         flex-direction: column;
