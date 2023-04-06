@@ -57,10 +57,16 @@ nav a:hover{
     display: flex;
 }
 
+
+/*Fim estilização header*/
+/*menu-mobile*/
 #toogle{
     display: none; 
 }
-/*Fim estilização header*/
+.open{
+    display: none;
+}
+/* fim -menu-mobile*/
 
 
 #event-description{
@@ -351,6 +357,38 @@ footer, span{
     #redes{
         display: none;
     }
+
+    /*menu-mobile*/
+    .open{
+        display: none;
+    }
+    
+    #nav-mobile{
+        flex-direction: column; 
+    }
+    #menu-mobile{
+        margin-top: 70px;
+        background-color: #000;
+        padding: 3px;     
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;  
+    }
+    .nav-menu-mobile a{
+        font-size: 22px;
+        font-weight: 400;
+        text-decoration: none; 
+        color: var(--text-color); 
+    
+    }
+    .nav-menu-mobile{
+        text-align: center;
+        margin: 10px;
+        list-style-type: none;
+    }
+    /*Fim menu Mobile*/
+    
     
    
 

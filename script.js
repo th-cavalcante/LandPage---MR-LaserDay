@@ -1,3 +1,26 @@
+
+const btnShowMenu = document.getElementById('toogle')
+btnShowMenu.addEventListener('click', (e)=>{
+  showMenuMobile()
+});
+
+function showMenuMobile(){
+  let sectionMenuMobile = document.querySelector('#container-mobile')
+  if(sectionMenuMobile.classList.contains('open')){
+    sectionMenuMobile.classList.remove('open')
+    btnShowMenu.innerHTML =`<i class="fa fa-close"></i>`
+  }else{
+    sectionMenuMobile.classList.add('open');
+    btnShowMenu.innerHTML =`<i class="fa fa-navicon"></i>`
+  }
+}
+
+function clickMenu(){
+  if(showMenuMobile().value)
+    sectionMenuMobile.remove()
+}
+
+
 var slideIndex = 0;
 showSlides();
 
