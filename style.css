@@ -28,20 +28,32 @@ header{
 #logo img{
     height: 100px;
     width: 100px;
+
     
 }
 #logo{
     margin-left: 40px;
     margin-top: 15px;
+    
+   
 }
-nav a{
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu{
+    list-style-type: none;
+}
+
+.nav-menu a{
     margin-left: 20px;
     font-size: 'montserrat';
     font-weight: 300;
     text-decoration: none; 
     color: var(--text-color); 
 }
-nav a:hover{
+.nav-menu a:hover{
     text-decoration: underline;
     text-underline-offset: 26px;
 }
@@ -56,9 +68,9 @@ nav a:hover{
     margin-right: 50px;
     display: flex;
 }
-
-
 /*Fim estilização header*/
+
+
 /*menu-mobile*/
 #toogle{
     display: none; 
@@ -344,21 +356,12 @@ footer, span{
         background: #000;
         color: #fff;
     }
+     /*Cabecalho -menu*/
     header{
         background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
     }
-   
-    nav a{
-        display: none;
-    }
-    #logo{
-        margin-left: 40px;
-    }
-    #redes{
-        display: none;
-    }
 
-    /*menu-mobile*/
+   /*menu-mobile*/
     .open{
         display: none;
     }
@@ -388,7 +391,29 @@ footer, span{
         list-style-type: none;
     }
     /*Fim menu Mobile*/
-    
+   
+    #menu{
+        display: none;
+    }
+    #redes{
+        display: none;
+    }
+    .hr-menu-mobile{
+        height: 2px;
+        background: #eb1ccc;
+    }
+    #toogle{
+        display: none;
+        width: auto;
+        background: none;
+        font-size: 40px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+     } 
+     /*FIM Cabecalho -menu*/
     
    
 
@@ -616,6 +641,7 @@ footer #dev{
     font-size: 10px;
 }
 
+
 .whats-fixed{
     position: fixed;
     bottom: 5px;
@@ -623,5 +649,6 @@ footer #dev{
     z-index: 9999;
     cursor: pointer;
 }
+
  
 }
