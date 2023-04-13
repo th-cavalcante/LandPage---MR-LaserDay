@@ -1,5 +1,5 @@
 
-const btnShowMenu = document.getElementById('toogle')
+let btnShowMenu = document.getElementById('toogle');
 btnShowMenu.addEventListener('click', (e)=>{
   showMenuMobile()
 });
