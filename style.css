@@ -464,21 +464,19 @@ footer, span{
     }
     .benefits{
         flex-direction: column;
-        justify-content: center;
-        max-width: 90%;
        
     }
     .benefit{
-        margin: 15px;
+        margin: 20px;
         background-color: none;
-        padding: 20px;
+        padding: 25px;
         border-radius: 15px;
         box-shadow: 1px 1px 15px #c7c5c5;
-        width: 370px;
+        width: 310px;
+       
    
     }
-    .benefit p{
-        
+    .benefit p{ 
         font-size: 18px;
         font-weight: 400;
         color: #fff;
