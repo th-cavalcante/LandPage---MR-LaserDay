@@ -403,10 +403,7 @@ footer, span{
     #redes{
         display: none;
     }
-    .hr-menu-mobile{
-        height: 2px;
-        background: #eb1ccc;
-    }
+    
     #toogle{
         display: none;
         width: auto;
@@ -471,8 +468,9 @@ footer, span{
         background-color: none;
         padding: 25px;
         border-radius: 15px;
-        box-shadow: 1px 1px 15px #c7c5c5;
+        box-shadow: 1px 1px 15px #ede8e8;
         width: 310px;
+        
        
    
     }
