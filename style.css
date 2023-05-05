@@ -543,7 +543,8 @@ footer, span{
 #galery-photo{
     flex-direction: column;
     align-items: center;
-    height: auto; 
+    height: auto;
+    background: black;
 }
 
 .mySlides img{
@@ -565,6 +566,7 @@ footer, span{
 #img-slide{
    width: 375px;
    height: 540px;
+   border-radius: 3px;
 }
 
 /*fim slide photos*/
