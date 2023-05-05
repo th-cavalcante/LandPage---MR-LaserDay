@@ -257,10 +257,9 @@ button:hover{
 
 
 #img-slide{
-   width: 600px;
-   height: 500px;
-   border-radius: 5px;
-   
+   width: 370px;
+   height: 540px;
+ 
 }
 
 /*Secao sobre mim*/ 
@@ -380,9 +379,10 @@ footer, span{
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;  
-        transition: all 3s;
+        width: 100%;     
     }
+   
+
     .nav-menu-mobile a{
         font-size: 22px;
         font-weight: 400;
@@ -563,8 +563,8 @@ footer, span{
 }
 
 #img-slide{
-   width: 380px;
-   height: 380px;
+   width: 370px;
+   height: 500px;
 }
 
 /*fim slide photos*/
