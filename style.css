@@ -245,6 +245,7 @@ button:hover{
     url(img/foto2.jpg);
     background-size: cover;
     background-position: center;
+   
     
 }
 #title-slide{
@@ -259,6 +260,8 @@ button:hover{
 #img-slide{
    width: 370px;
    height: 540px;
+   margin-top: 5px;
+   border-radius: 3px;
  
 }
 
