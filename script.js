@@ -37,3 +37,4 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 3000); // Tempo de 3 segundos
 }
+
