@@ -379,7 +379,7 @@ footer, span{
     }
     #menu-mobile{
         margin-top: 70px;
-        background-color: #fff;
+        background-color:#faf5f2;
         padding: 3px;     
         position: fixed;
         top: 0;
@@ -387,11 +387,9 @@ footer, span{
         width: 100%;
         
     }
-   
-
     .nav-menu-mobile a{
         font-size: 22px;
-        font-weight: 400;
+        font-weight: 500;
         text-decoration: none; 
         color: var(--primary); 
     
