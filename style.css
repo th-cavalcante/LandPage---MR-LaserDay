@@ -114,7 +114,7 @@ header{
 
 
 button{
-    width: 300px;
+    width: 350px;
     height: 60px;
     font-size: 23px;
     font-weight: bold;
@@ -123,10 +123,11 @@ button{
     border: none;
     cursor: pointer;
     padding: 5px;
+    opacity: 0.8;
     
 }
 button:hover{
-    background: #BF7E62;
+    opacity: 1;
 }
 
 
@@ -140,7 +141,7 @@ button:hover{
     height: 600px;
 }
 #key-benefits h2{
-    color: #5d5d5d;
+    color: var(--primary);
     text-align: center;
     padding: 1.5em;
     font-weight: 500;
@@ -282,7 +283,7 @@ button:hover{
     text-align: center;
     color: var(--primary);
     font-size: 35px;
-    color: var(--secondary);
+    color: var(--primary);
     
 }
 #txt-about p{
@@ -297,7 +298,7 @@ button:hover{
 /*Call to action cta*/
 #cta{
     height: 300px;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("img/sala3.jpg");
     background-position: center;
     background-size: cover;
