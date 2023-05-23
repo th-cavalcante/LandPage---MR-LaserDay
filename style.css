@@ -607,7 +607,7 @@ footer, span{
 /*Call to action cta*/
 #cta{
     height: 300px;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("img/sala3.jpg");
     background-position: center;
     background-size: cover;
