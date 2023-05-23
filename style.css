@@ -26,14 +26,14 @@ header{
 }
 
 #logo img{
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
 
     
 }
 #logo{
-    margin-left: 40px;
-    margin-top: 15px;
+    margin-left: 20px;
+   
     
    
 }
@@ -365,8 +365,8 @@ footer, span{
         background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
     }
     #logo{
-        margin-left: 15px;
-        margin-top: 15px;      
+        margin-left: 0px;
+         
     }
 
    /*menu-mobile*/
