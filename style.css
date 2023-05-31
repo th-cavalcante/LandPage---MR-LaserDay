@@ -362,7 +362,7 @@ footer, span{
         position: fixed;
          top: 70px;
          right: -100%;
-         background-color: var(--secondary);
+         background-color: rgb(241, 240, 239);
          height: auto;
          width: 100%;
          text-align: center;
@@ -385,7 +385,7 @@ footer, span{
     #logo{
         margin-left: 0px;   
     }
-    
+
     #redes{
         display: none;
     }
