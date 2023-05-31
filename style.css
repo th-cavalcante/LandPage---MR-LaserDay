@@ -393,13 +393,15 @@ footer, span{
     #toogle{    
         width: auto;
         background: none;
-        font-size: 40px;
-        color: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: 10px;
      } 
+     #toogle .material-symbols-outlined{
+        color: #fff;
+        font-size: 40px;
+     }
      /*FIM Cabecalho -menu*/
     
    
