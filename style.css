@@ -33,9 +33,9 @@ header{
 }
 #logo{
     margin-left: 20px;
-   
-    
-   
+}
+#toogle{
+    display: none;
 }
 #nav{
     display: flex;
@@ -71,14 +71,6 @@ header{
 /*Fim estilização header*/
 
 
-/*menu-mobile*/
-#toogle{
-    display: none; 
-}
-.open{
-    display: none;
-}
-/* fim -menu-mobile*/
 
 
 #event-description{
@@ -364,52 +356,41 @@ footer, span{
     header{
         background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
     }
-    #logo{
-        margin-left: 0px;
-         
+    
+  
+    header #nav{
+        position: fixed;
+         top: 70px;
+         right: -100%;
+         background-color: var(--secondary);
+         height: auto;
+         width: 100%;
+         text-align: center;
+         display: block;
+         transition: all 0.3s ease;     
+    }
+    header #nav.open{
+        right: 0;
+    }
+    header #nav li{
+        padding: 10px;
+        font-size: 20px;  
     }
 
-   /*menu-mobile*/
-    .open{
-        display: none;
-    }
-    
-    #nav-mobile{
-        flex-direction: column; 
-    }
-    #menu-mobile{
-        margin-top: 70px;
-        background-color:#faf5f2;
-        padding: 3px;     
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        
-    }
-    .nav-menu-mobile a{
-        font-size: 22px;
+    header #nav li a{
+        color: #B65D49;
         font-weight: 500;
-        text-decoration: none; 
-        color: var(--primary); 
+    }
+
+    #logo{
+        margin-left: 0px;   
+    }
     
-    }
-    .nav-menu-mobile{
-        text-align: center;
-        margin: 10px;
-        list-style-type: none;
-    }
-    /*Fim menu Mobile*/
-   
-    #menu{
-        display: none;
-    }
     #redes{
         display: none;
     }
     
-    #toogle{
-        display: none;
+    #toogle{    
         width: auto;
         background: none;
         font-size: 40px;

@@ -1,26 +1,25 @@
-
-let  btnShowMenu = document.getElementById('toogle');
-btnShowMenu.addEventListener('click', (e)=>{
-  showMenuMobile()
-});
-
+//Função para abrir o menu mobile//
 function showMenuMobile(){
-  let sectionMenuMobile = document.querySelector('#container-mobile')
-  if(sectionMenuMobile.classList.contains('open')){
-    sectionMenuMobile.classList.remove('open')
-    btnShowMenu.innerHTML =`<i class="fa fa-close"></i>`
+  let btnMenu = document.querySelector('#toogle');
+  let menu = document.querySelector('#nav');
+  if(menu.classList.contains('open')){
+    menu.classList.remove('open');
+    btnMenu.innerHTML=`<i class="fa fa-navicon"></i>`
   }else{
-    sectionMenuMobile.classList.add('open');
-    btnShowMenu.innerHTML =`<i class="fa fa-navicon"></i>`
+    menu.classList.add('open')
+    btnMenu.innerHTML=`<i class="fa fa-close"></i>`
   }
-}
+};
 
-function clickMenu(){
-  if(showMenuMobile().value)
-    sectionMenuMobile.remove()
-}
+//função para fechar o menu, quando um nav foi clicado//
+function clickRemoveMenu(){
+  if(showMenuMobile().value){
+    showMenuMobile.remove()   
+  }
+};
 
 
+//slide de fotos
 var slideIndex = 0;
 showSlides();
 

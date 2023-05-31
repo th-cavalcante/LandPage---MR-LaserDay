@@ -21,45 +21,31 @@
 
 <body>
     <!--cabecalho -menu-->
+   <section id="home">
     <header>
         <div id="logo">
             <img src="img/logomarcaMR.png" alt="">
         </div>
         <div id="menu">
                 <ul id="nav">
-                    <li class="nav-menu"><a href="#key-benefits">Vantagens</a></li>
-                    <li class="nav-menu"><a href="#partnership">Como funciona a parceria?</a></li>
-                    <li class="nav-menu"><a href="#questions">Perguntas Frequentes</a></li>
-                    <li class="nav-menu"><a href="#galery-photo">Fotos</a> </li>
-                    <li class="nav-menu"><a href="#section-about-me">Sobre mim</a></li>
+                    <li class="nav-menu" onclick="clickRemoveMenu()"><a href="#home">Home</a></li>
+                    <li class="nav-menu" onclick="clickRemoveMenu()"><a href="#key-benefits">Vantagens</a></li>
+                    <li class="nav-menu" onclick="clickRemoveMenu()"><a href="#partnership">Como funciona a parceria?</a></li>
+                    <li class="nav-menu" onclick="clickRemoveMenu()"><a href="#questions">Perguntas Frequentes</a></li>
+                    <li class="nav-menu" onclick="clickRemoveMenu()"><a href="#galery-photo">Fotos</a> </li>
+                    <li class="nav-menu" onclick="clickRemoveMenu()"><a href="#section-about-me">Sobre mim</a></li>
                 </ul>
         </div>
         <div id="icone-toogle">
-            <button id="toogle"><i class="fa fa-navicon"></i></button>
+            <button id="toogle" onclick="showMenuMobile()"><i class="fa fa-navicon"></i></button>
         </div>
         <div id="redes">
             <a href="https://instagram.com/melrodrigues_esteticista?igshid=YmMyMTA2M2Y="><img src="img/instagram.png" alt=""></a>
             <a href="https://www.facebook.com/profile.php?id=100087275207849"><img src="img/facebook.png" alt=""></a>
         </div>      
   </header>
-    <!--fim cabecalho- menu-->
-    <section class="open"  id="container-mobile" >
-        <div id="menu-mobile">
-            <ul id="nav-mobile">
-                <li class="nav-menu-mobile" onclick="clickMenu()"><a href="#event-description">Home</a></li>
-                <hr class="hr-menu-mobile">
-                <li class="nav-menu-mobile" onclick="clickMenu()"><a href="#key-benefits">Vantagens</a></li>
-                <hr class="hr-menu-mobile">
-                <li class="nav-menu-mobile"onclick="clickMenu()"><a href="#partnership">Como funciona a parceria?</a></li>
-                <hr class="hr-menu-mobile">
-                <li class="nav-menu-mobile"onclick="clickMenu()"><a href="#questions">Perguntas Frequentes</a></li>
-                <hr class="hr-menu-mobile">
-                <li class="nav-menu-mobile"onclick="clickMenu()"><a href="#galery-photo">Fotos</a> </li>
-                <hr class="hr-menu-mobile">
-                <li class="nav-menu-mobile"onclick="clickMenu()"><a href="#section-about-me">Sobre mim</a></li>
-            </ul>
-    </div>
-      </section>
+</section> 
+    
 
       <!--primeira seção -Welcome-->
    <section id="event-description">
