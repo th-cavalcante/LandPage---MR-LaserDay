@@ -347,7 +347,7 @@ footer, span{
 }
 
 /*Responsividade ---------------------------------------------------------------------------------------------*/
-@media (max-width: 450px){
+@media (max-width: 768px){
     body{
         background: #fff;
         color: var(--text-tertiary);
