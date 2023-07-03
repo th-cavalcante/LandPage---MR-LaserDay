@@ -37,3 +37,24 @@ function showSlides() {
   setTimeout(showSlides, 3000); // Tempo de 3 segundos
 }
 
+
+document.addEventListener('DOMContentLoaded', function() {
+  const transitionText = document.querySelector('.about-event');
+  const text = "Que bom ter você por aqui";
+  const interval = 100;
+
+  function showText(el, text, interval) {
+      const char = text.split("").reverse();
+      const typer = setInterval(() => {
+          if (!char.length) {
+              return clearInterval(typer);
+          }
+          const next = char.pop();
+          el.innerHTML += next;
+      }, interval);
+  }
+  showText(transitionText, text, interval);
+});
+
+
+

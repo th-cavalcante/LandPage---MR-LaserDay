@@ -52,10 +52,12 @@ header{
     font-weight: 300;
     text-decoration: none; 
     color: var(--secondary); 
+    transition: ease 0.2s all;
 }
 .nav-menu a:hover{
     text-decoration: underline;
     text-underline-offset: 26px;
+    
 }
 
 #redes img{
